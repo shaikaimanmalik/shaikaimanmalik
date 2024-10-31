@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- 
+    Developer: SHAIK AIMAN MALIK
+    University: SIUC
+    Date Developed: 09/6/24
+    Date Tested: 09/7/24
+    -->
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>Aiman's Bicycles</title> 
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/slicknav.css"> 
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+        <script src="js/jquery.slicknav.min.js"></script> 
+        <script type="text/javascript"> 
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+            }); 
+        </script>
+
+        <meta name="description" content="Bike shop with different varieties"> <meta name="keywords" content="Aiman, Pro, cycle, Bullet, R15, ZX10R, Road Bikes, Mountain Bikes">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+    <body>
+        <figcaption>Aiman's Bicycle Shop</figcaption>
+            <figure class="cute">
+            <img  class="cute" src="images/bicycle.jpeg"/>
+            <img class="cuter" src="images/img 2.jpeg"/>
+            </figure>
+        <header>
+        
+            <!-- Smooth Audio Track (not really)  -->
+        <audio controls autoplay loop hidden>
+           <source src="audio/music.mp3" type="audio/mpeg">
+            </audio>
+            
+        </header> 
+       
+         <!-- Navigation Menu -->
+        <nav id="mobile_menu"></nav> 
+        <nav id="nav_menu"> 
+            <ul>
+                <li><a href="index.htm" class="current">Home</a></li> 
+                <li><a href="sales.htm">Sales</a></li> 
+                <li><a href="rentals.htm" >Rentals</a></li>
+                <li><a href="service.htm" >Service</a></li> 
+                <li><a href="contact.htm" class="lastitem">Contact</a></li>
+            </ul> 
+        </nav>
+            <h2>Bike shop with different varieties.</h2>
+            <p>We have like different types of bicycles.Come and check it out with cheapest price in town. </p>
+            <p >We carry some best models like:</p>
+            <!-- block quote -->
+            <blockquote>Specializing in: Road Bikes, Mountain Bikes,and BMX Bikes!
+            </blockquote>
+            <!--list of bikes -->
+            <ol>
+                <li>BULLET</li> <li>R15</li> <li>ZX10R</li><li>PULSAR</li><li>BURGMAN</li>
+            </ol> 
+
+    <!-- Contact name of the owner -->
+    <h2>Contact details:</h2>
+        <p>SHAIK AIMAN MALIK</p>
+    <p>Ph.Num:1-(618)-521-8150</p>
+
+    <!-- shop Address -->
+    <p>Address: 519 E main st, carbondale, il, 62901</p>
+
+    <!-- Short description about the shop -->
+    <p>We also offer the <span>best bicycles</span> and <span>bike accessories</span> in town!</p>
+
+    
+
+    <!-- Additional information -->
+    <p>Feel free to <a href="mailto:contact@bicycleshop.com">contact us</a> for more details.</p>
+</body>
+</html>
