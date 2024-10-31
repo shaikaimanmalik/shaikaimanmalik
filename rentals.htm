@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- 
+    Developer: SHAIK AIMAN MALIK
+    University: SIUC
+    Date Developed: 09/6/24
+    Date Tested: 09/7/24
+    Purpose: Bicycle Shop Rentals Page
+    This page describes the bike rental services offered by the shop.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rentals</title>
+    <meta name="description" content="rental bicycles"> <meta name="keywords" content="Aiman's bicycles, street bikes, mountain bikes, rentals">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <figcaption>Aiman's Bicycles Rentals</figcaption>
+            <figure class="cute">
+            <img  class="cute" src="images/bicycle.jpeg"/>
+            <img class="cuter" src="images/img 2.jpeg"/>
+            </figure> 
+    <header>
+        <link rel="stylesheet" href="styles/slicknav.css"> 
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+        <script src="js/jquery.slicknav.min.js"></script> 
+        <script type="text/javascript"> 
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+            }); 
+        </script>
+        </header>
+
+     <!-- Navigation Menu  -->
+        <nav id="mobile_menu"></nav> 
+        <nav id="nav_menu"> 
+            <ul>
+                <li><a href="index.htm">Home</a> </li> 
+                <li><a href="sales.htm">Sales</a></li> 
+                <li><a href="rentals.htm" class="current">Rentals</a></li>
+                <li><a href="service.htm" >Service</a></li> 
+                <li><a href="contact.htm" class="lastitem">Contact</a></li>
+            </ul> 
+        </nav>
+
+    <h2>We offer a variety of street and mountain bikes for rent. Choose the perfect bike for your adventure, whether it’s a day in the city or a ride on the mountains.
+    For more information call1-618-221-9990</h2>
+
+   <!-- 1st column Road Bikes  -->
+        <main>
+      <h2>Rent a Road Bike for $70 per day</h2>
+    <h1> 1.) Road Bike - Mens</h1>
+      <p class="first">R15 road bike is perfect for exploring the city,it offers a smooth and comfortable ride for all-day use.</p>
+      <p><strong>Price:</strong> $50/day or $120/week</p>
+  <h2>2.Road bike-Womens</h2>
+      <p class ="first">Trek Road Bike, forged crank, v-brakes, tire pump, padded seat, 
+          cargo rack, puncture resistant tires, womens helmet included</p>
+    </main>
+
+           <!-- 1st column Mountain Bikes  -->
+        <aside>
+            <h2>Rent an MTB Bike for $100 per day</h2>
+            <h2>1.) Mountain bike- Mens</h2>
+            <p class ="first">Bullet Mountain Bike, forged crank, disc brakes, tire pump, padded seat, cargo rack, puncture resistant off-road tires, mens helmet included</p>
+            <h2>2.) Mountain bike- Womens</h2>
+            <p class ="first">Burgman, forged crank, disc brakes, tire pump, padded seat, cargo rack, puncture resistant tires, womens helmet included</p>
+        </aside> 
+
+    <!-- Rental terms section -->
+    <footer><h2>Rental Terms</h2></footer>
+        <p>Rentals are available daily or weekly. Each rental comes with a free helmet for safety. A $100 deposit is required for each bike rental.</p>
+        <p>Bikes must be returned in good condition. Any damage will be charged according to the extent of the repair required.</p>
+
+</body>
+</html>
+
+
